@@ -16,7 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    cd ClientApp
+    cd ShoeStore.Frontend
     npm install -g @angular/cli
     npm install
     ng build --prod
